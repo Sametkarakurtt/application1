@@ -1,0 +1,345 @@
+body {
+    background-color: #e3f2fd;
+    width: 100%;
+    height: 100%;
+    background-image: url(day_513.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.invitation-card .container {
+    border-radius: 10px;
+    margin-bottom: 3em;
+    max-width: 646px;
+    box-shadow: -8px 50px 76px rgba(30, 136, 229, 0.36);
+    background-color: #ffffff;
+    margin-top: 144px;
+    padding: 87px 64px 106px 64px;
+    width: 100%;
+}
+
+.invitation-card .container .invitation-card-title h1 {
+    color: #263238;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 34px;
+    text-align: center;
+    margin-bottom: 90px;  
+}
+.invitation-card .container .invitation-card-give h2 {
+    color: #263238;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22px;
+    margin-bottom:19px;
+}
+
+.invitation-card .container .invitation-card-give p {   
+    color: #263238;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22px;
+    margin-bottom: 22px;
+}
+
+.invitation-card-give .form-element { 
+    max-width: 500px;
+    position: relative;
+    margin-bottom: 61px;
+}
+
+.invitation-card-give .form-element input { 
+    width: 100%;
+    padding: 14px 20px 14px 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid #37474f;
+    background-color: #ffffff;
+    opacity: 0.3;
+    
+}
+
+.invitation-card-give .form-element i { 
+    position: absolute;
+    right: 5px;
+    top: 14px;
+}
+
+.invitation-card .container .invitation-card-invite h2 {
+    color: #263238;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22px;
+    margin-bottom: 15px;
+}
+
+.invitation-card .container .invitation-card-invite p {   
+    color: #263238;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-bottom: 21px;
+}
+.invitation-card-invite-link {
+    font-size: 30px;
+    color: #039be5;
+    margin-bottom: 60px;
+    display: flex;
+
+}
+.invitation-card-invite-link a i {
+    color: #039be5;
+    font-size: 18px;
+}
+
+.invitation-card-invite-link a {
+    border-radius: 50%;
+    align-items: center;
+    margin-left: 15px;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    width: 48px;
+    height: 48px;
+    background-color: white;
+    border: 10px #e3f2fd solid;
+
+}
+
+.invitation-card .container .invitation-card-mail h2{
+
+    color: #263238;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-bottom: 19px;
+
+}
+.invitation-card .container .invitation-card-mail p{
+
+    color: #263238;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-bottom: 21px;
+    
+}
+
+
+.invitation-card-mail .form-element {  
+    max-width: 500px;
+    position: relative;
+    margin-bottom: 19px;
+}
+
+.invitation-card-mail .form-element input { 
+    width: 100%;
+    padding: 14px 20px 14px 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid #039be5;
+    background-color: #ffffff;
+    opacity: 0.3;
+    
+} 
+
+.invitation-card-mail .form-element i { 
+    position: absolute;
+    right: 5px;
+    top: 14px;
+} 
+
+
+.invitation-card .container form.invitation-card-button button {
+    box-shadow: -2px 13px 16px rgba(30, 136, 229, 0.26);
+    border-radius: 10px;
+    background-color: #039be5;
+    border: 0px;
+    float: right;
+    
+
+}
+
+.invitation-card .container form.invitation-card-button button  p{
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin: 0px;
+    padding: 16px 48px;
+}
+
+.content .container {
+    width: 100%;
+    height: 70vh;
+    box-shadow: -8px 50px 76px rgba(30, 136, 229, 0.36);
+    background-color: #039be5;
+    margin-bottom: 3em;
+    border-radius: 10px;
+    padding: 97px 85px 50px 85px;
+}
+.content .content-thankyou{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-icon-back{
+    padding: 10px;
+    border: 4px rgba(255, 255, 255, 0.1) solid;
+    border-radius: 50%;
+    margin-bottom: 2em;
+
+
+}
+.content-icon-back .content-icon{
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 50%;
+    border: 10px #039be5 solid;
+    font-size: 60px;
+    color: #ffffff;
+}
+.content-icon i{
+    font-size: 36px;
+    border-radius: 50%;
+    padding: 18px;
+    background-color: white;
+    color: #039be5;
+}
+
+.content .container .content-text h1 {
+
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22px;
+    margin-bottom: 23px;
+    text-align: center;
+}
+
+.content .container .content-text p {
+
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22px;
+    text-align: center;
+}
+
+.verification-code .container {
+    width: 100%;
+    height: 25vh;
+    box-shadow: -8px 50px 95px rgba(30, 136, 229, 0.28);
+    background-color: #ffffff;
+    margin-bottom: 3em;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 25px;
+}
+
+.verification-code .container .verification-code h2 {
+    color: #263238;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22px;
+    margin-bottom: 21px;
+
+}
+
+.verification-code .container .verification-code p {
+    color: #263238;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22px;
+}
+.verification-code .container .box{
+    width: 45px;
+    height: 51px;
+    border-radius: 5px;
+    border: 2px solid #37474f;
+    background-color: #ffffff;
+    opacity: 0.3;
+    font-size: 38px;
+    text-align: center;
+    font-weight: 600;
+    margin-left: 28px;
+    }
+.verification-code .container .box.selected {
+
+    border-radius: 5px;
+    border: 2px solid #039be5;
+    background-color: white;
+    outline: #039be5;
+    opacity: 1.0;
+}
+
+
+
+.verification-code .container form.verification-code-button button {
+    box-shadow: -2px 13px 16px rgba(30, 136, 229, 0.26);
+    border-radius: 10px;
+    background-color: #039be5;
+    margin-left: 28px;
+    border: 0px;
+}
+
+.verification-code .container form.verification-code-button button  p{
+
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    padding: 15px 43px;
+
+}
+
+
+
