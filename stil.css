@@ -2,6 +2,7 @@ body {
     background-color: #e3f2fd;
     width: 100%;
     height: 100%;
+    font-family: Montserrat;
     background-image: url(day_513.jpg);
     background-position: center;
     background-size: cover;
@@ -14,7 +15,24 @@ body {
     flex-direction: column;
 }
 
-.invitation-card .container {
+h2{
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22px;
+    color: #263238;
+}
+p{
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22px;
+    color: #263238;
+}
+
+.invitation-card {
     border-radius: 10px;
     margin-bottom: 3em;
     max-width: 646px;
@@ -22,48 +40,27 @@ body {
     background-color: #ffffff;
     margin-top: 144px;
     padding: 87px 64px 106px 64px;
-    width: 100%;
 }
 
-.invitation-card .container .invitation-card-title h1 {
+.invitation-card  .invitation-card-title h1 {
     color: #263238;
-    font-family: Montserrat;
     font-size: 25px;
     font-weight: 700;
-    font-style: normal;
-    letter-spacing: normal;
     line-height: 34px;
     text-align: center;
     margin-bottom: 90px;  
 }
-.invitation-card .container .invitation-card-give h2 {
-    color: #263238;
-    font-family: Montserrat;
-    font-size: 20px;
-    font-weight: 700;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: 22px;
+.invitation-card  .invitation-card-give h2 {
     margin-bottom:19px;
 }
-
-.invitation-card .container .invitation-card-give p {   
-    color: #263238;
-    font-family: Montserrat;
-    font-size: 15px;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: 22px;
+.invitation-card  .invitation-card-give p {   
     margin-bottom: 22px;
 }
-
 .invitation-card-give .form-element { 
     max-width: 500px;
     position: relative;
     margin-bottom: 61px;
 }
-
 .invitation-card-give .form-element input { 
     width: 100%;
     padding: 14px 20px 14px 10px;
@@ -72,34 +69,17 @@ body {
     border: 2px solid #37474f;
     background-color: #ffffff;
     opacity: 0.3;
-    
 }
-
 .invitation-card-give .form-element i { 
     position: absolute;
     right: 5px;
-    top: 14px;
+    top: 17px;
+    color: #039be5;
 }
-
-.invitation-card .container .invitation-card-invite h2 {
-    color: #263238;
-    font-family: Montserrat;
-    font-size: 20px;
-    font-weight: 700;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: 22px;
+.invitation-card  .invitation-card-invite h2 {
     margin-bottom: 15px;
 }
-
-.invitation-card .container .invitation-card-invite p {   
-    color: #263238;
-    font-family: Montserrat;
-    font-size: 15px;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: normal;
+.invitation-card  .invitation-card-invite p {   
     margin-bottom: 21px;
 }
 .invitation-card-invite-link {
@@ -107,13 +87,11 @@ body {
     color: #039be5;
     margin-bottom: 60px;
     display: flex;
-
 }
 .invitation-card-invite-link a i {
     color: #039be5;
     font-size: 18px;
 }
-
 .invitation-card-invite-link a {
     border-radius: 50%;
     align-items: center;
@@ -125,41 +103,18 @@ body {
     height: 48px;
     background-color: white;
     border: 10px #e3f2fd solid;
-
 }
-
-.invitation-card .container .invitation-card-mail h2{
-
-    color: #263238;
-    font-family: Montserrat;
-    font-size: 20px;
-    font-weight: 700;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: normal;
+.invitation-card  .invitation-card-mail h2{
     margin-bottom: 19px;
-
 }
-.invitation-card .container .invitation-card-mail p{
-
-    color: #263238;
-    font-family: Montserrat;
-    font-size: 15px;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: normal;
-    margin-bottom: 21px;
-    
+.invitation-card  .invitation-card-mail p{
+    margin-bottom: 21px; 
 }
-
-
 .invitation-card-mail .form-element {  
     max-width: 500px;
     position: relative;
     margin-bottom: 19px;
 }
-
 .invitation-card-mail .form-element input { 
     width: 100%;
     padding: 14px 20px 14px 10px;
@@ -168,46 +123,33 @@ body {
     border: 2px solid #039be5;
     background-color: #ffffff;
     opacity: 0.3;
-    
 } 
-
 .invitation-card-mail .form-element i { 
     position: absolute;
     right: 5px;
-    top: 14px;
+    top: 17px;
 } 
-
-
-.invitation-card .container form.invitation-card-button button {
+.invitation-card  form.invitation-card-button button {
     box-shadow: -2px 13px 16px rgba(30, 136, 229, 0.26);
     border-radius: 10px;
     background-color: #039be5;
     border: 0px;
     float: right;
-    
-
 }
-
-.invitation-card .container form.invitation-card-button button  p{
+.invitation-card  form.invitation-card-button button  p{
     color: #ffffff;
-    font-family: Montserrat;
     font-size: 20px;
     font-weight: 700;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: normal;
     margin: 0px;
     padding: 16px 48px;
 }
-
-.content .container {
-    width: 100%;
-    height: 70vh;
+.content  {
+    max-width: 471px;
     box-shadow: -8px 50px 76px rgba(30, 136, 229, 0.36);
     background-color: #039be5;
     margin-bottom: 3em;
     border-radius: 10px;
-    padding: 97px 85px 50px 85px;
+    padding: 97px 82px 102px 82px;
 }
 .content .content-thankyou{
     display: flex;
@@ -219,8 +161,6 @@ body {
     border: 4px rgba(255, 255, 255, 0.1) solid;
     border-radius: 50%;
     margin-bottom: 2em;
-
-
 }
 .content-icon-back .content-icon{
     padding: 20px;
@@ -237,35 +177,19 @@ body {
     background-color: white;
     color: #039be5;
 }
-
-.content .container .content-text h1 {
-
+.content  .content-text h2 {
     color: #ffffff;
-    font-family: Montserrat;
-    font-size: 20px;
-    font-weight: 700;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: 22px;
-    margin-bottom: 23px;
     text-align: center;
+    margin-bottom:23px ;
 }
-
-.content .container .content-text p {
-
+.content  .content-text p {
     color: #ffffff;
-    font-family: Montserrat;
     font-size: 12px;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: normal;
     line-height: 22px;
     text-align: center;
 }
-
-.verification-code .container {
-    width: 100%;
-    height: 25vh;
+.verification-code  {
+    max-width: 944px;
     box-shadow: -8px 50px 95px rgba(30, 136, 229, 0.28);
     background-color: #ffffff;
     margin-bottom: 3em;
@@ -273,31 +197,12 @@ body {
     border-radius: 10px;
     align-items: center;
     justify-content: center;
-    padding: 25px 25px;
+    padding: 60px 56px 60px 56px;
 }
-
-.verification-code .container .verification-code h2 {
-    color: #263238;
-    font-family: Montserrat;
-    font-size: 20px;
-    font-weight: 700;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: 22px;
+.verification-code  .verification h2 {
     margin-bottom: 21px;
-
 }
-
-.verification-code .container .verification-code p {
-    color: #263238;
-    font-family: Montserrat;
-    font-size: 15px;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: 22px;
-}
-.verification-code .container .box{
+.verification-code  .box{
     width: 45px;
     height: 51px;
     border-radius: 5px;
@@ -309,36 +214,25 @@ body {
     font-weight: 600;
     margin-left: 28px;
     }
-.verification-code .container .box.selected {
-
+.verification-code  .box.selected {
     border-radius: 5px;
     border: 2px solid #039be5;
     background-color: white;
     outline: #039be5;
     opacity: 1.0;
 }
-
-
-
-.verification-code .container form.verification-code-button button {
+.verification-code  form.verification-code-button button {
     box-shadow: -2px 13px 16px rgba(30, 136, 229, 0.26);
     border-radius: 10px;
     background-color: #039be5;
     margin-left: 28px;
     border: 0px;
 }
-
-.verification-code .container form.verification-code-button button  p{
-
+.verification-code  form.verification-code-button button  p{
     color: #ffffff;
-    font-family: Montserrat;
     font-size: 20px;
     font-weight: 700;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: normal;
     padding: 15px 43px;
-
 }
 
 
