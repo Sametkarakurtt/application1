@@ -40,6 +40,7 @@ p{
     background-color: #ffffff;
     margin-top: 144px;
     padding: 87px 64px 106px 64px;
+    
 }
 
 .invitation-card  .invitation-card-title h1 {
@@ -160,7 +161,7 @@ p{
     padding: 10px;
     border: 4px rgba(255, 255, 255, 0.1) solid;
     border-radius: 50%;
-    margin-bottom: 2em;
+    margin-bottom: 35px;
 }
 .content-icon-back .content-icon{
     padding: 20px;
@@ -202,6 +203,9 @@ p{
 .verification-code  .verification h2 {
     margin-bottom: 21px;
 }
+.verification-code .verification p {
+    margin-right: 97px;
+}
 .verification-code  .box{
     width: 45px;
     height: 51px;
@@ -225,7 +229,7 @@ p{
     box-shadow: -2px 13px 16px rgba(30, 136, 229, 0.26);
     border-radius: 10px;
     background-color: #039be5;
-    margin-left: 28px;
+    margin-left: 57px;
     border: 0px;
 }
 .verification-code  form.verification-code-button button  p{
