@@ -8,7 +8,7 @@
     <title>Application1</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="normalize.css">
@@ -20,11 +20,11 @@
     
     <div class="invitation-card">
         <div class="invitation-card-title">
-            <h1>Want to invite someone who is <br> not here?</h1>
+            <h1>Want to invite someone who is not here?</h1>
         </div>
             <div class="invitation-card-give">
                 <h2>Give Access with Link </h2>
-                <p>Copy and share the link bellow with your image<br>give them access to join your team. </p>
+                <p>Copy and share the link bellow with your image give them access to join your team. </p>
                 <div class="form-element">
                     <input type="text" value="https://www.cnnturk.com" readonly>
                     <i class="fas fa-copy"></i>
@@ -33,7 +33,7 @@
                     
             <div class="invitation-card-invite">
                 <h2>Invıte using Social Media </h2>
-                <p>Et harum quidem rerum facilis est et expedita<br> distinctio. Nam libero tempore,cum soluta
+                <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore,cum soluta
                     nobis. </p>
                 <div class="invitation-card-invite-link">                        
                         <a href="https://facebook.com"><i class="fab fa-facebook-f"></i></a>
@@ -46,17 +46,12 @@
             <footer>
                 <div class="invitation-card-mail">
                     <h2>Invıte with Email </h2>
-                    <p>Enter your invitee's email address and we will send<br>them an invitation to join your team.
+                    <p>Enter your invitee's email address and we will send them an invitation to join your team.
                     </p>
                     <div class="form-element">
                         <input type="text" >
                     </div>
-                    <div class="button ">
-                        <form class="invitation-card-button" >
-                            <button type="submit"><p>Send</p></button>
-                        </form>
-                    </div>
-                </div>                   
+                        <button>Send</button>
             </footer>                     
     </div>
 
@@ -70,10 +65,10 @@
         </div>          
         <div class="content-text">
             <h2>Thank you!</h2>
-            <p>Sed ut perspiciatis unde omnis iste natus error sit<br>
-            voluptatem accusantium doloremque laudantium,<br>
-            totam rem aperiam, eaque ipsa quae ab illo<br>
-            inventore veritatis et quasi architecto beatae vitae<br>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit
+            voluptatem accusantium doloremque laudantium,
+            totam rem aperiam, eaque ipsa quae ab illo
+            inventore veritatis et quasi architecto beatae vitae
             dicta sunt explicabo</p>
         </div>               
     </div>
@@ -81,25 +76,16 @@
     <div class="verification-code">             
         <div class="verification">
                 <h2>Verification code</h2>
-                <p>Please enter the verification code we<br> sent to your email address.</p>
+                <p>Please enter the verification code we sent to your email address.</p>
         </div>              
-        <ul class="boxes">
+        <form class="boxes">
             <input class="box selected" maxlength="1" onkeyup="box1TextChanged(this);" id="kutu1">
-            </input>
             <input class="box " maxlength="1" onkeyup="box2TextChanged(this);" id="kutu2">
-            </input>
             <input class="box" maxlength="1" onkeyup="box3TextChanged(this);" id="kutu3">
-            </input>
             <input class="box" maxlength="1" onkeyup="box4TextChanged(this);" id="kutu4">
-            </input>
-        </ul>
-        <div class="button">
-            <form class="verification-code-button">
-                <button type="submit">
-                    <p>Verify</p>
-                </button>
-            </form>
-        </div>
+            <button>Verify</button>
+        </form>
+
     </div>
 
 </body>

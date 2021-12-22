@@ -347,3 +347,6 @@
   [hidden] {
     display: none;
   }
+  div.input{
+    box-sizing: border-box;
+  }
